@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Interstelar</title>
+  
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <link rel="icon" type="image/png" href="assets/img/grav-svgrepo-com.svg">
+</head>
+  
+<body>
+    
+    <h1 class="heading text-center display-2">
+        Conversor Interstellar</h1>
+  
+    <hr>
+    <div class="container">
+
+        <h1 class="logoimersao">imersão DEV_</h1>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+         
+        </a>
+  
+        <div class="main">
+  
+            <div class="form-group">
+                <label for="oamount">
+                    Valor a ser convertido : 
+                </label>
+                <input type="text" 
+                       class="form-control searchBox" 
+                       placeholder="0.00" 
+                       id="oamount">
+            </div>
+  
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">De</span>
+                        </div>
+                        <select class="form-control from" id="sel1">
+                            <option value="">Selecione um …</option>
+                            <option value="USD">USD</option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                        </select>
+                    </div>
+                </div>
+  
+                <div class="col-sm-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Para</span>
+                        </div>
+                        <select class="form-control to" id="sel2">
+                            <option value="">Selecione um…</option>
+                            <option value="USD">USD</option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="text-center">
+
+                <button class="btn btn-primary convert m-2" 
+                        type="submit">
+                     Convert
+              </button>
+
+                <button class="btn btn-primary m-2" 
+                        onclick="clearVal()">
+                   Reset
+              </button>
+            </div>
+  
+        </div>
+  
+        <div id="finalAmount" class="text-center">
+  
+            <h2>Valor convertido :
+                <span class="finalValue" 
+                      style="color:white;">
+           </span>
+            </h2>
+        </div>
+    </div>
+  
+    <script src="assets/js/script.js"></script>
+</body>
+  
+</html>

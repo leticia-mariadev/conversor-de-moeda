@@ -1,0 +1,109 @@
+body {
+    background-image: url(/assets/img/wave-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 35px auto 20px;
+    color: white;
+}
+
+hr {
+    border-top: 2px solid black;
+    width: 40%;
+    margin-bottom: 55px;
+}
+
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(201, 192, 192, 0.5);
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+.btn {
+    width: 200px;
+    background-color: #212529;
+    border-color: #dae0e5;
+
+}
+
+.btn-primary {
+    color: #fff;
+}
+
+#finalAmount {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    margin: 50px auto;
+    color: gray;
+}
+
+#finalAmount h2 {
+    font-size: 35px;
+}
+
+.finalValue {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #ffffff
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logoimersao {
+    font-size: 30px;
+    font-family: 'Unica One', cursive;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 50px;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+    #finalAmount h2,
+    .finalValue {
+        font-size: 40px;
+    }
+}
