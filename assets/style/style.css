@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://img.freepik.com/free-photo/glitch-effect-black-background_53876-129025.jpg?w=900&t=st=1675214427~exp=1675215027~hmac=fdb6793e7139f59825a5db8a1abc7dc1ff10fa6bc4a6375302c77456b3a09bca");
+    background-image: url("https://wallpapercave.com/wp/wp3493599.jpg");
     background-color: black;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -23,7 +23,7 @@ hr {
     margin: auto;
     padding: 30px;
     border-radius: 5px;
-    background-color: rgba(201, 192, 192, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
 
@@ -43,14 +43,14 @@ label {
 }
 
 #finalAmount {
-    font-family: 'Montserrat', sans-serif;
+    'Josefin Sans', sans-serif
     display: none;
     margin: 50px auto;
     color: gray;
 }
 
 #finalAmount h2 {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .finalValue {
